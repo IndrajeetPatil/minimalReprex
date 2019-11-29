@@ -1,24 +1,8 @@
 
 # minimalReprex
 
-<!-- badges: start -->
-
-[![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/minimalReprex)](https://CRAN.R-project.org/package=minimalReprex)
-<!-- badges: end -->
-
-The goal of minimalReprex is to …
-
-## Installation
-
-You can install the released version of minimalReprex from
-[CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("minimalReprex")
-```
+The goal of minimalReprex is to demonstrate problems with rendering
+LaTeX equations.
 
 ## Example
 
