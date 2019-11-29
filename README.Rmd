@@ -1,0 +1,22 @@
+---
+output:
+  github_document:
+    pandoc_args: --webtex
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# minimalReprex
+
+The goal of minimalReprex is to demonstrate problems with rendering LaTeX equations.
+
+## Example
+
+$$\eta^2, \eta^2_p, \omega^2, \omega^2_p$$
