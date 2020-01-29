@@ -15,8 +15,16 @@ knitr::opts_chunk$set(
 
 # minimalReprex
 
-The goal of minimalReprex is to demonstrate problems with rendering LaTeX equations.
+The goal of `minimalReprex` is to demonstrate problems with rendering `LaTeX`
+equations on `README` of `pkgdown` websites.
 
 ## Example
 
-$$\eta^2, \eta^2_p, \omega^2, \omega^2_p$$
+This is inline with the text $\eta^2$, but this text moves to the next line.
+
+This doesn't get rendered properly either (it's always the extra space):
+
+option-1 | option-2
+-------|-------
+$\eta^2$ | $\eta^2_p$
+x | y

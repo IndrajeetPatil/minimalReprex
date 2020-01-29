@@ -62,24 +62,33 @@
 <div id="minimalreprex" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#minimalreprex" class="anchor"></a>minimalReprex</h1></div>
-<!-- badges: start -->
-
-<p>The goal of minimalReprex is to …</p>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the released version of minimalReprex from <a href="https://CRAN.R-project.org">CRAN</a> with:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"minimalReprex"</span>)</a></code></pre></div>
-</div>
+<p>The goal of <code>minimalReprex</code> is to demonstrate problems with rendering <code>LaTeX</code> equations on <code>README</code> of <code>pkgdown</code> websites.</p>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
-<p><img src="https://latex.codecogs.com/png.latex?%5Ceta%5E2%2C%20%5Ceta%5E2_p%2C%20%5Comega%5E2%2C%20%5Comega%5E2_p%20%22%5Ceta%5E2,%20%5Ceta%5E2_p,%20%5Comega%5E2,%20%5Comega%5E2_p%22" alt="\eta^2, \eta^2_p, \omega^2, \omega^2_p"></p>
+<p>This is inline with the text <embed src="https://latex.codecogs.com/png.latex?%5Ceta%5E2" title="\eta^2"></embed>, but this text moves to the next line.</p>
+<p>This doesn’t get rendered properly either (it’s always the extra space):</p>
+<table class="table">
+<thead><tr class="header">
+<th>option-1</th>
+<th>option-2</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td><embed src="https://latex.codecogs.com/png.latex?%5Ceta%5E2" title="\eta^2"></embed></td>
+<td><embed src="https://latex.codecogs.com/png.latex?%5Ceta%5E2_p" title="\eta^2_p"></embed></td>
+</tr>
+<tr class="even">
+<td>x</td>
+<td>y</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
   </div>
 
-  <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
+  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
@@ -101,14 +110,7 @@
 </ul>
 </div>
 
-  <div class="dev-status">
-<h2>Dev status</h2>
-<ul class="list-unstyled">
-<li><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
-<li><a href="https://CRAN.R-project.org/package=minimalReprex"><img src="https://www.r-pkg.org/badges/version/minimalReprex" alt="CRAN status"></a></li>
-</ul>
-</div>
-</div>
+  </div>
 </div>
 
 
