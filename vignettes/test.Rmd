@@ -18,12 +18,14 @@ knitr::opts_chunk$set(
 
 Link: https://github.com/r-lib/pkgdown/issues/1282
 
-(Observed at least in `Chrome`. **N.B. Not using netlifly, but rather github pages**)
-
 ```{r}
 x <- 1 + 2
 
 x
+```
+
+```{r}
+rmarkdown::pandoc_version()
 ```
 
 ```{r}
