@@ -53,3 +53,15 @@ p <- ggplot(mtcars, aes(mpg, wt)) +
 # modify
 p + labs(title = "example plot")
 ```
+
+Session info
+
+```{r}
+sessioninfo::session_info(include_base = TRUE)
+```
+
+Pandoc info
+
+```{r}
+rmarkdown::pandoc_version()
+```
