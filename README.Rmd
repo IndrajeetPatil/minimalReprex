@@ -43,25 +43,8 @@ Link: https://github.com/r-lib/pkgdown/issues/1282
 (Observed at least in `Chrome`. **N.B. Not using netlifly, but rather github pages**)
 
 ```{r}
-library(ggplot2)
+x <- 1 + 2
 
-# save the plot in an object
-p <- ggplot(mtcars, aes(mpg, wt)) +
-  geom_point() + 
-  geom_smooth()
-
-# modify
-p + labs(title = "example plot")
+x
 ```
 
-Session info
-
-```{r}
-sessioninfo::session_info(include_base = TRUE)
-```
-
-Pandoc info
-
-```{r}
-rmarkdown::pandoc_version()
-```
