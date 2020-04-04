@@ -1,30 +1,32 @@
 
-Minimal reprexes for `pkgdown` issue
+# Minimal reprexes for `pkgdown` issues
 
-<!--
+## issue 1150
 
-# issue 1150
+Link: <https://github.com/r-lib/pkgdown/issues/1150>
 
-Link: https://github.com/r-lib/pkgdown/issues/1150
+Problems with rendering `LaTeX` equations in `README` of `pkgdown`
+websites.
 
-Problems with rendering `LaTeX` equations on `README` of `pkgdown` websites.
+**This is observed only in Chrome, Internet Explorer, and Edge
+browsers**. No issue with Firefox browser.
 
-**This is observed only in Chrome, Internet Explorer, and Edge browsers**. 
-No issue with Firefox browser.
+This is
+![\\eta\_p^2](http://chart.apis.google.com/chart?cht=tx&chl=%5Ceta_p%5E2
+"\\eta_p^2") (partial eta-squared), but is not rendered properly.
 
-This math text $\eta^2$ is inline, but this text moves to the next line in website.
+Exactly how it is rendered depends on which browser you use, but it is
+rendered properly only in Firefox.
 
-This doesn't get rendered properly either:
+Somehow this is not an issue when the equations are inside a table:
 
-option-1 | option-2
--------|-------
-$\eta^2$ | $\omega^2$
-x | y
-1 | 2
+| option-1                                                                              | option-2                                                                                    |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| ![\\eta\_p^2](http://chart.apis.google.com/chart?cht=tx&chl=%5Ceta_p%5E2 "\\eta_p^2") | ![\\omega\_p^2](http://chart.apis.google.com/chart?cht=tx&chl=%5Comega_p%5E2 "\\omega_p^2") |
+| x                                                                                     | y                                                                                           |
+| 1                                                                                     | 2                                                                                           |
 
--->
-
-# issue 1282
+## issue 1282
 
 Link: <https://github.com/r-lib/pkgdown/issues/1282>
 
