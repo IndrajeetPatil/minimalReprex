@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# issue 1397
+# issue 1400
 
 ```{r}
 library(ggplot2)

@@ -2,11 +2,11 @@
 Minimal reprexes for `pkgdown` issues
 =====================================
 
-issue 1397
+issue 1400
 ----------
 
 See `test` vignette:
-<a href="https://indrajeetpatil.github.io/minimalReprex/articles/test.html#issue-1397-1" class="uri">https://indrajeetpatil.github.io/minimalReprex/articles/test.html#issue-1397-1</a>
+<a href="https://indrajeetpatil.github.io/minimalReprex/articles/test.html#issue-1400-1" class="uri">https://indrajeetpatil.github.io/minimalReprex/articles/test.html#issue-1400-1</a>
 
 issue 1282 (resolved)
 ---------------------
