@@ -15,7 +15,13 @@ knitr::opts_chunk$set(
 
 # Minimal reprexes for `pkgdown` issues
 
-## issue 1400
+## Inline code
+
+`{broom}`
+
+`{tidymodels}`
+
+## issue 1400 (resolved)
 
 See `test` vignette: https://indrajeetpatil.github.io/minimalReprex/articles/test.html#issue-1400-1
 

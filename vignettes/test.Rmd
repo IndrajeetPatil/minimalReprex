@@ -36,7 +36,3 @@ x
 ```{r}
 rmarkdown::pandoc_version()
 ```
-
-```{r}
-sessioninfo::session_info()
-```
