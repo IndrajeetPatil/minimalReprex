@@ -1,11 +1,5 @@
 
-# Minimal reprexes for `pkgdown` issues
-
-## Inline code
-
-`{broom}`
-
-`{tidymodels}`
+# Minimal reprexes for `{pkgdown}` issues
 
 ## issue 1400 (resolved)
 

@@ -10,8 +10,6 @@ Description: What the package does (one paragraph).
 URL: https://indrajeetpatil.github.io/minimalReprex,
     https://github.com/IndrajeetPatil/minimalReprex
 License: GPL-3
-Imports:
-    broom
 Suggests: 
     ggplot2,
     testthat,
