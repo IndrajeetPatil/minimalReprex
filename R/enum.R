@@ -16,3 +16,14 @@ enum <- function(enumValues) {
 
   return(myEnum)
 }
+
+
+#' Default species defined in PK-Sim
+#'
+#' @include enum.R
+#' @export
+Species <- enum(c(
+  "Beagle",
+  "Dog",
+  "Human"
+))

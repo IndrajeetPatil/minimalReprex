@@ -27,3 +27,12 @@ Color <- enum(c("Red", "Blue", "Green"))
 Color
 ```
 
+Now looking at the included Enum:
+
+- `Species`
+- `Species()`
+
+```{r}
+Species
+```
+
