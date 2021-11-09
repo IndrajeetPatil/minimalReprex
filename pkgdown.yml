@@ -4,5 +4,6 @@ pkgdown_sha: 8122179c440692487eda000d6542d7734a37d36d
 articles:
   test: test.html
   test2: test2.html
-last_built: 2021-11-08T12:41Z
+  test3: test3.html
+last_built: 2021-11-09T12:46Z
 

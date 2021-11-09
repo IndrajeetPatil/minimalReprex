@@ -16,10 +16,16 @@
     <loc>/articles/test2.html</loc>
   </url>
   <url>
+    <loc>/articles/test3.html</loc>
+  </url>
+  <url>
     <loc>/authors.html</loc>
   </url>
   <url>
     <loc>/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/enum.html</loc>
   </url>
   <url>
     <loc>/reference/index.html</loc>
