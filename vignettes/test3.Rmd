@@ -1,0 +1,29 @@
+---
+title: "test3"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{test3}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Refer it in different ways:
+
+- `enum`
+- `enum()`
+
+Use it in a code block:
+
+```{r}
+library(minimalReprex)
+Color <- enum(c("Red", "Blue", "Green"))
+Color
+```
+
