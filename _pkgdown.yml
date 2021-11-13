@@ -2,7 +2,7 @@ template:
   bootstrap: 5
   bootswatch: darkly
   # bootswatch: cyborg
-  # theme: arrow-dark
+  theme: arrow-dark
 
 
 articles:
