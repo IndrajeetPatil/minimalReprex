@@ -1,7 +1,8 @@
 template:
   bootstrap: 5
-  bootswatch: cyborg
-  theme: arrow-dark
+  bootswatch: darkly
+  # bootswatch: cyborg
+  # theme: arrow-dark
 
 
 articles:
