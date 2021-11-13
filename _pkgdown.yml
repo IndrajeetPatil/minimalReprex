@@ -1,12 +1,10 @@
 template:
   bootstrap: 5
-  #bootswatch: slate
   bootswatch: cyborg
-  #theme: arrow-dark
+  theme: arrow-dark
 
 
 articles:
-
   - title: My article title
     navbar: My article navbar
     desc: Details about what my articles are about.
