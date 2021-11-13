@@ -1,6 +1,6 @@
 template:
   bootstrap: 5
-  bootswatch: darkly
+  bootswatch: slate
   # bootswatch: cyborg
   theme: arrow-dark
 
