@@ -4,3 +4,10 @@ template:
   theme: arrow-dark
 
 
+articles:
+
+  - title: My articles
+    navbar: My articles
+    desc: Details about what my articles are about
+    contents:
+      - starts_with("test")
