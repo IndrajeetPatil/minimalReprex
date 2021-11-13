@@ -1,8 +1,8 @@
 template:
   bootstrap: 5
-  bootswatch: slate
-  # bootswatch: cyborg
-  theme: arrow-dark
+  #bootswatch: slate
+  bootswatch: cyborg
+  #theme: arrow-dark
 
 
 articles:
