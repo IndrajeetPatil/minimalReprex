@@ -6,8 +6,8 @@ template:
 
 articles:
 
-  - title: My articles
-    navbar: My articles
-    desc: Details about what my articles are about
+  - title: My article title
+    navbar: My article navbar
+    desc: Details about what my articles are about.
     contents:
       - starts_with("test")
