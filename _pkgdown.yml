@@ -1,6 +1,6 @@
 template:
   bootstrap: 5
-  bootswatch: zephyr
+  bootswatch: simplex
   #theme: arrow-dark
 
 
