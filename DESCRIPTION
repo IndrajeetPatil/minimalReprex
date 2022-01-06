@@ -3,8 +3,9 @@ Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: c(
     person("Harvard University", role = c("cph", "fnd")),
-    person("First", "Last", "patilindrajeet.science@gmail.com", role = c("aut", "cre"))
+    person("Indrajeet", "Patil", role = c("aut", "cre"))
   )
+Maintainer: Indrajeet Patil <patilindrajeet.science@gmail.com>
 Description: What the package does (one paragraph).
 URL: https://indrajeetpatil.github.io/minimalReprex,
     https://github.com/IndrajeetPatil/minimalReprex
