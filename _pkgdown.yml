@@ -1,15 +1,10 @@
 template:
   bootstrap: 5
-  bootswatch: simplex
-  #theme: arrow-dark
-
 
 authors:
   Harvard University:
     href: "Harvard University"
     html: "<img src='reference/figures/hu.png' height=24>"
-  Indrajeet Patil:
-    href: https://sites.google.com/site/indrajeetspatilmorality/
 
 articles:
   - title: My article title
