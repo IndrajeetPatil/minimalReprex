@@ -4,7 +4,7 @@ template:
 authors:
   Harvard University:
     href: "Harvard University"
-    html: "<img src='https://github.com/IndrajeetPatil/minimalReprex/blob/master/man/figures/hu.png' height=24>"
+    html: "<img src='https://indrajeetpatil.github.io/minimalReprex/reference/figures/hu.png' height=24>"
 
 articles:
   - title: My article title
