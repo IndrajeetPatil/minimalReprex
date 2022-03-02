@@ -3,7 +3,7 @@
 \docType{data}
 \name{Species}
 \alias{Species}
-\title{Default species defined in PK-Sim}
+\title{Default species of interest}
 \format{
 An object of class \code{list} of length 3.
 }
@@ -11,6 +11,6 @@ An object of class \code{list} of length 3.
 Species
 }
 \description{
-Default species defined in PK-Sim
+Default species of interest
 }
 \keyword{datasets}
