@@ -9,7 +9,7 @@
 #' Color
 #' @export
 enum <- function(enumValues) {
-  myEnum <-   as.list(enumValues)
+  myEnum <-      as.list(enumValues)
   enumNames <-     names(myEnum)
 
   if (is.null(enumNames)) names(myEnum) <- myEnum
