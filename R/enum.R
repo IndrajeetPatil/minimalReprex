@@ -9,8 +9,8 @@
 #' Color
 #' @export
 enum <- function(enumValues) {
-  myEnum <- as.list(enumValues)
-  enumNames <- names(myEnum)
+  myEnum <-      as.list(enumValues)
+  enumNames <-   names(myEnum)
 
   if (is.null(enumNames)) names(myEnum) <- myEnum
 
@@ -18,11 +18,10 @@ enum <- function(enumValues) {
 }
 
 
-#' Default species defined in PK-Sim
+#' Default species of interest
 #'
 #' @export
 Species <- enum(c(
-  "Beagle",
-  "Dog",
+  "Beagle", "Dog",
   "Human"
 ))
