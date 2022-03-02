@@ -3,6 +3,8 @@
 on:
   issue_comment:
     types: [created]
+  pull_request:
+    branches: [main, master]
 
 name: Commands
 
