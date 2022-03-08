@@ -32,4 +32,5 @@ knitr::opts_chunk$set(
 
 - `enumOp`
 - `enumOp()`
-
+- `minimalReprex::enumOp`
+- `minimalReprex::enumOp()`
