@@ -16,23 +16,7 @@ knitr::opts_chunk$set(
 
 Refer it in different ways:
 
-- `enum`
-- `enum()`
-
-Use it in a code block:
-
-```{r}
-library(minimalReprex)
-Color <- enum(c("Red", "Blue", "Green"))
-Color
-```
-
-Now looking at the included Enum:
-
-- `Species`
-- `Species()`
-
-```{r}
-Species
-```
-
+- `.Platform`
+- `.Platform()`
+- `base::.Platform`
+- `base::.Platform()`
