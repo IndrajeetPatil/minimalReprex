@@ -21,9 +21,15 @@ knitr::opts_chunk$set(
 - `base::mean`
 - `base::mean()`
 
-## Named list
+## Named list (from another package)
 
 - `.Platform`
 - `.Platform()`
 - `base::.Platform`
 - `base::.Platform()`
+
+## Named list (from the same package)
+
+- `enumOp`
+- `enumOp()`
+
