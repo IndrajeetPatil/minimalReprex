@@ -14,12 +14,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-## Function
+## Function (from another package)
 
 - `mean`
 - `mean()`
 - `base::mean`
 - `base::mean()`
+
+## Function (from the same package)
+
+- `helloWorld`
+- `helloWorld()`
+- `minimalReprex::helloWorld`
+- `minimalReprex::helloWorld()`
 
 ## Named list (from another package)
 

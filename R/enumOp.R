@@ -12,4 +12,3 @@ enumOp <- function() {
     "divide"   = "/"
   )
 }
-
