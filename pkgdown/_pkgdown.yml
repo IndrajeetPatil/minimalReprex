@@ -7,8 +7,8 @@ authors:
     html: "<img src='https://indrajeetpatil.github.io/minimalReprex/reference/figures/hu.png' height=24>"
 
 articles:
-  - title: My article title
-    navbar: My article navbar
-    desc: Details about what my articles are about.
+  - title: ~
+    navbar: ~
+    desc: ~
     contents:
       - starts_with("test")
