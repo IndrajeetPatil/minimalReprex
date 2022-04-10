@@ -3,26 +3,30 @@
 \name{plotter1}
 \alias{plotter1}
 \alias{plotter2}
-\title{Plot random data}
+\title{Plot cars data
+
+if (require("ggplot2")) {
+ggplot(cars, aes(x = speed)) + geom_histogram(bins = 20)
+ggplot(cars, aes(x = speed, y = dist)) + geom_point()
+}}
 \usage{
 plotter1()
 
 plotter2()
 }
 \description{
-Plot random data
+Plot cars data
+
+if (require("ggplot2")) {
+ggplot(cars, aes(x = speed)) + geom_histogram(bins = 20)
+ggplot(cars, aes(x = speed, y = dist)) + geom_point()
+}
 }
 \examples{
 \donttest{
- plot(cars$speed)
- plot(cars)
-}
-
-\donttest{
- if (require("ggplot2")) {
-
- ggplot(cars, aes(x = speed)) + geom_histogram(bins = 20)
- ggplot(cars, aes(x = speed, y = dist)) + geom_point()
+if (require("ggplot2")) {
+  ggplot(cars, aes(x = speed)) + geom_histogram(bins = 20)
+  ggplot(cars, aes(x = speed, y = dist)) + geom_point()
 }
 }
 

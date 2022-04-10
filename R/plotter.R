@@ -1,9 +1,8 @@
-#' @title Plot random data
+#' @title Plot cars data
 #'
-#' @examples
-#' \donttest{
-#'  plot(cars$speed)
-#'  plot(cars)
+#' if (require("ggplot2")) {
+#'  ggplot(cars, aes(x = speed)) + geom_histogram(bins = 20)
+#'  ggplot(cars, aes(x = speed, y = dist)) + geom_point()
 #' }
 #'
 #' @export
@@ -15,10 +14,9 @@ plotter1 <- function() {}
 #'
 #' @examples
 #' \donttest{
-#'  if (require("ggplot2")) {
-#'
-#'  ggplot(cars, aes(x = speed)) + geom_histogram(bins = 20)
-#'  ggplot(cars, aes(x = speed, y = dist)) + geom_point()
+#' if (require("ggplot2")) {
+#'   ggplot(cars, aes(x = speed)) + geom_histogram(bins = 20)
+#'   ggplot(cars, aes(x = speed, y = dist)) + geom_point()
 #' }
 #' }
 #'
