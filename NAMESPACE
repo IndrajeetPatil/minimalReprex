@@ -2,6 +2,4 @@
 
 export(enumOp)
 export(helloWorld)
-export(plotter1)
-export(plotter2)
-import(ggplot2)
+export(plotter)
