@@ -2,3 +2,4 @@
 
 export(enumOp)
 export(helloWorld)
+export(plotter)
