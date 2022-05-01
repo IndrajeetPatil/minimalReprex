@@ -1,11 +1,6 @@
 template:
   bootstrap: 5
 
-authors:
-  Harvard University:
-    href: "Harvard University"
-    html: "<img src='https://indrajeetpatil.github.io/minimalReprex/reference/figures/hu.png' height=24>"
-
 articles:
   - title: ~
     navbar: ~
