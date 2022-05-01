@@ -1,8 +1,11 @@
-#' @title Standard deviations for cars data
+#' @title Calculate Standard Deviation
+#'
+#' @param x A vector.
+#'
 #' @examples
 #' if (require("stats")) {
-#'  sd(cars$speed)
-#'  sd(cars$dist)
+#'  std(cars$speed)
+#'  std(cars$dist)
 #' }
 #' @export
-stdCars <- function() NULL
+std <- function(x) sd(x)
