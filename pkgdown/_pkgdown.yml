@@ -11,3 +11,31 @@ articles:
     desc: ~
     contents:
       - starts_with("test")
+
+navbar:
+  structure:
+    right: [easystats, github]
+  components:
+    easystats:
+      text: easystats
+      menu:
+      - text: insight
+        href: https://easystats.github.io/insight/
+      - text: datawizard
+        href: https://easystats.github.io/datawizard/
+      - text: bayestestR
+        href: https://easystats.github.io/bayestestR/
+      - text: performance
+        href: https://easystats.github.io/performance/
+      - text: parameters
+        href: https://easystats.github.io/parameters/
+      - text: effectsize
+        href: https://easystats.github.io/effectsize/
+      - text: modelbased
+        href: https://easystats.github.io/modelbased/
+      - text: correlation
+        href: https://easystats.github.io/correlation/
+      - text: see
+        href: https://easystats.github.io/see/
+      - text: report
+        href: https://easystats.github.io/report/
