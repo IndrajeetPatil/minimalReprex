@@ -1,5 +1,6 @@
 template:
   bootstrap: 5
+  bootswatch: simplex
   bslib:
     base_font: {google: "Roboto"}
     heading_font: {google: "Roboto Slab"}
@@ -10,17 +11,14 @@ development:
   version_label: default
   version_tooltip: "Version"
 
-articles:
-  - title: ~
-    navbar: ~
-    desc: ~
-    contents:
-      - starts_with("test")
-
 navbar:
   structure:
-    right: [easystats, github]
+    right: [easystats, twitter, github]
   components:
+    twitter:
+      icon: fa-twitter
+      href: http://twitter.com/easystats4u
+      aria-label: Twitter
     easystats:
       text: easystats
       menu:
@@ -44,3 +42,11 @@ navbar:
         href: https://easystats.github.io/see/
       - text: report
         href: https://easystats.github.io/report/
+
+
+articles:
+  - title: ~
+    navbar: ~
+    desc: ~
+    contents:
+      - starts_with("test")
