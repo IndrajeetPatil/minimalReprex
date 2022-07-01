@@ -5,6 +5,11 @@ template:
     heading_font: {google: "Roboto Slab"}
     code_font: {google: "JetBrains Mono"}
 
+development:
+  mode: auto
+  version_label: default
+  version_tooltip: "Version"
+
 articles:
   - title: ~
     navbar: ~

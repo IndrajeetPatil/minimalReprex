@@ -4,8 +4,8 @@
 #'
 #' @examples
 #' if (require("stats")) {
-#'  std(cars$speed)
-#'  std(cars$dist)
+#'   std(cars$speed)
+#'   std(cars$dist)
 #' }
 #' @export
 std <- function(x) sd(x)
