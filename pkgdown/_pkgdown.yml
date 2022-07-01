@@ -19,11 +19,11 @@ navbar:
     right: [easystats, twitter, github]
   components:
     reference:
-      icon: fa fa-file-lines
+      icon: fa fa-file-code
       text: Reference
       href: reference/index.html
     articles:
-      icon: fa fa-books
+      icon: fa fa-book-reader
       text: Articles
       href: articles/index.html
     news:
