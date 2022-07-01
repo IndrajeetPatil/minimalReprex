@@ -1,6 +1,5 @@
 template:
   bootstrap: 5
-  #bootswatch: simplex
   bslib:
     base_font: {google: "Roboto"}
     heading_font: {google: "Roboto Slab"}
@@ -10,6 +9,9 @@ development:
   mode: auto
   version_label: default
   version_tooltip: "Version"
+
+deploy:
+  install_metadata: true
 
 navbar:
   structure:
