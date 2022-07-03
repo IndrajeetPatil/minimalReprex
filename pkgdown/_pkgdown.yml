@@ -61,9 +61,25 @@ navbar:
         href: https://easystats.github.io/report/
 
 
+reference:
+
+  - title: Main
+    navbar: Key functions
+    desc: Something useful.
+    contents:
+      - std
+      - enumOp
+
+  - title: Misc
+    navbar: Nothing specific
+    desc: Something boilerplate.
+    contents:
+      - starts_with("hello")
+
 articles:
-  - title: ~
-    navbar: ~
-    desc: ~
+
+  - title: Test the vignettes
+    navbar: Test vignettes
+    desc: These are just for tests.
     contents:
       - starts_with("test")
