@@ -1,13 +1,10 @@
+/* font size for test */
 body {
     font-size: 0.90rem !important;
 }
 
+/* color for links */
 a {
-  color: blue;
+    text-decoration: none !important;
+    color: #03638e;
 }
-
-a:visited {
-  color: #ded8e2;
-}
-
-
