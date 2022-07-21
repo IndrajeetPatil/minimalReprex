@@ -7,7 +7,7 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r child="../man/rmd-fragments/boilerplate.Rmd"}
-
+```{r}
+#| child = "../man/rmd-fragments/boilerplate.Rmd"
 ```
 
