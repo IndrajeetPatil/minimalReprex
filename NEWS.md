@@ -1,4 +1,4 @@
-# minimalReprex 0.0.0.9000
+# minimalReprex 0.1.0
 
 * @maelle fixed this bug in PR XYZ.
 
