@@ -94,7 +94,7 @@
 <p>Link: <a href="https://github.com/r-lib/pkgdown/issues/1150" class="external-link uri">https://github.com/r-lib/pkgdown/issues/1150</a></p>
 <p>Problems with rendering <code>LaTeX</code> equations in <code>README</code> of <code>pkgdown</code> websites.</p>
 <p><strong>This is observed only in Chrome, Internet Explorer, and Edge browsers</strong>. No issue with Firefox browser.</p>
-<p>This is <img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=%5Ceta_p%5E2" title="\eta_p^2" alt="\eta_p^2"> (partial eta-squared), but is not rendered properly.</p>
+<p>This is <img src="https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&amp;space;%5Cbg_white&amp;space;%5Ceta_p%5E2" title="\eta_p^2" alt="_p^2"> (partial eta-squared), but is not rendered properly.</p>
 <p>Exactly how it is rendered depends on which browser you use, but it is rendered properly only in Firefox.</p>
 <p>Somehow this is not an issue when the equations are inside a table:</p>
 <table class="table">
@@ -108,8 +108,8 @@
 </tr></thead>
 <tbody>
 <tr class="odd">
-<td><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=%5Ceta_p%5E2" title="\eta_p^2" alt="\eta_p^2"></td>
-<td><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=%5Comega_p%5E2" title="\omega_p^2" alt="\omega_p^2"></td>
+<td><img src="https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&amp;space;%5Cbg_white&amp;space;%5Ceta_p%5E2" title="\eta_p^2" alt="_p^2"></td>
+<td><img src="https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&amp;space;%5Cbg_white&amp;space;%5Comega_p%5E2" title="\omega_p^2" alt="_p^2"></td>
 </tr>
 <tr class="even">
 <td>x</td>
@@ -121,6 +121,11 @@
 </tr>
 </tbody>
 </table>
+<pre class="mermaid"><code>  graph TD;
+      A--&gt;B;
+      A--&gt;C;
+      B--&gt;D;
+      C--&gt;D;</code></pre>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
