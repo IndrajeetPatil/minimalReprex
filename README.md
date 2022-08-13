@@ -31,7 +31,7 @@ websites.
 browsers**. No issue with Firefox browser.
 
 This is
-![\\eta_p^2](http://chart.apis.google.com/chart?cht=tx&chl=%5Ceta_p%5E2 "\eta_p^2")
+![\eta_p^2](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5Ceta_p%5E2 "\eta_p^2")
 (partial eta-squared), but is not rendered properly.
 
 Exactly how it is rendered depends on which browser you use, but it is
@@ -39,8 +39,16 @@ rendered properly only in Firefox.
 
 Somehow this is not an issue when the equations are inside a table:
 
-| option-1                                                                            | option-2                                                                                  |
-|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| ![\\eta_p^2](http://chart.apis.google.com/chart?cht=tx&chl=%5Ceta_p%5E2 "\eta_p^2") | ![\\omega_p^2](http://chart.apis.google.com/chart?cht=tx&chl=%5Comega_p%5E2 "\omega_p^2") |
-| x                                                                                   | y                                                                                         |
-| 1                                                                                   | 2                                                                                         |
+| option-1                                                                                                          | option-2                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| ![\eta_p^2](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5Ceta_p%5E2 "\eta_p^2") | ![\omega_p^2](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5Comega_p%5E2 "\omega_p^2") |
+| x                                                                                                                 | y                                                                                                                       |
+| 1                                                                                                                 | 2                                                                                                                       |
+
+``` mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```

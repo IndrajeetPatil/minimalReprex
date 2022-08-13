@@ -1,7 +1,5 @@
 ---
-output:
-  github_document:
-    pandoc_args: --webtex=http://chart.apis.google.com/chart?cht=tx&chl=
+output: github_document
 ---
 
 ```{r, include = FALSE}
@@ -52,3 +50,11 @@ option-1 | option-2
 $\eta_p^2$ | $\omega_p^2$
 x | y
 1 | 2
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
