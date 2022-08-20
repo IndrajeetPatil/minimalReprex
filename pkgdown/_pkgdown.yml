@@ -4,14 +4,16 @@ template:
 reference:
 
   - title: Main
-    navbar: Key functions
+    # navbar not supported
+    #navbar: Key functions
     desc: Something useful.
     contents:
       - std
       - enumOp
 
   - title: Misc
-    navbar: Nothing specific
+    # navbar not supported
+    #navbar: Nothing specific
     desc: Something boilerplate.
     contents:
       - starts_with("hello")
