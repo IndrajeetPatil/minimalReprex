@@ -1,5 +1,7 @@
 
-# Minimal reprexes for `{pkgdown}` issues <img src="man/figures/logo.png" align="right" width="240" />
+# Minimal reprexes for `{pkgdown}` issues
+
+<img src="man/figures/logo.png" align="right" width="240" />
 
 Old resolved issue (and therefore corresponding reprexes have been
 removed)
