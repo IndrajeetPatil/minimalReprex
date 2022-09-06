@@ -10,16 +10,6 @@ removed)
 - 1282
 - 1400
 
-## Diagrams in Markdown files with Mermaid
-
-``` mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
 ## Acknowledgments
 
 Hex sticker font is [Cairo](https://fonts.google.com/specimen/Cairo),
