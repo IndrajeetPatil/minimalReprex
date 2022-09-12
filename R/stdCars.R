@@ -9,3 +9,6 @@
 #' }
 #' @export
 std <- function(x) sd(x)
+
+# x <- 5
+y <- T
