@@ -8,6 +8,5 @@ vignette: >
 ---
 
 ```{r child="../man/rmd-fragments/boilerplate.Rmd"}
-
 ```
 

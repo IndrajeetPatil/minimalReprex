@@ -19,8 +19,9 @@ knitr::opts_chunk$set(
 ```{r}
 library(ggplot2)
 
-ggplot(mtcars, aes(wt, mpg)) + geom_point() + 
-  labs(subtitle = expression(chi^2==2.2))
+ggplot(mtcars, aes(wt, mpg)) +
+  geom_point() +
+  labs(subtitle = expression(chi^2 == 2.2))
 ```
 
 # issue 1282 (resolved)
