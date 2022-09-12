@@ -1,4 +1,4 @@
-#' @title Calculate Standard Deviation
+#' @title Calculate Standard Deviation (SD)
 #'
 #' @param x A vector.
 #'
