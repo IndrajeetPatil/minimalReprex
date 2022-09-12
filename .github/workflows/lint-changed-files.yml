@@ -20,6 +20,7 @@ jobs:
         with:
           extra-packages: |
             any::gh
+            any::lintr
             any::purrr
           needs: check
 
