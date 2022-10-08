@@ -2,7 +2,7 @@
 % Please edit documentation in R/stdCars.R
 \name{std}
 \alias{std}
-\title{Calculate Standard Deviation}
+\title{Calculate Standard Deviation (SD)}
 \usage{
 std(x)
 }
@@ -10,11 +10,11 @@ std(x)
 \item{x}{A vector.}
 }
 \description{
-Calculate Standard Deviation
+Calculate Standard Deviation (SD)
 }
 \examples{
-if (require("stats")) {
-  std(cars$speed)
-  std(cars$dist)
-}
+\dontshow{if (require("stats")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+std(cars$speed)
+std(cars$dist)
+\dontshow{\}) # examplesIf}
 }

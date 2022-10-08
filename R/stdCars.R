@@ -2,10 +2,9 @@
 #'
 #' @param x A vector.
 #'
-#' @examples
-#' if (require("stats")) {
-#'   std(cars$speed)
-#'   std(cars$dist)
-#' }
+#' @examplesIf require("stats")
+#' std(cars$speed)
+#' std(cars$dist)
 #' @export
 std <- function(x) sd(x)
+
