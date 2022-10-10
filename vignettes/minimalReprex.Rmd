@@ -1,0 +1,10 @@
+---
+title: "Intro to minimalReprex"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Intro to minimalReprex}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Bla bla bla.
