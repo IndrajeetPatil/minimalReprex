@@ -14,10 +14,10 @@ reference:
     contents:
       - starts_with("hello")
 
-# articles:
-#
-#   - title: Test the vignettes
-#     navbar: Test vignettes
-#     desc: These are just for tests.
-#     contents:
-#       - starts_with("test")
+articles:
+
+  - title: Test the vignettes
+    navbar: Test vignettes
+    desc: These are just for tests.
+    contents:
+      - starts_with("test")
