@@ -2,9 +2,9 @@
 #'
 #' @param x A vector.
 #'
-#' @examplesIf require("stats")
-#' std(cars$speed)
-#' std(cars$dist)
+#' @examplesIf getRversion() > '5.0'
+#' sd(cars$speed)
+#' sd(cars$dist)
 #' @export
 std <- function(x) sd(x)
 

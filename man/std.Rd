@@ -13,8 +13,8 @@ std(x)
 Calculate Standard Deviation (SD)
 }
 \examples{
-\dontshow{if (require("stats")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
-std(cars$speed)
-std(cars$dist)
+\dontshow{if (getRversion() > '5.0') (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+sd(cars$speed)
+sd(cars$dist)
 \dontshow{\}) # examplesIf}
 }
