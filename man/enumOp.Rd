@@ -10,6 +10,9 @@ enumOp()
 Enumerated list of operations and their symbols
 }
 \examples{
-enumOp()
+if (getRversion() > "4.0") {
+  sd(cars$speed)
+  sd(cars$dist)
+}
 
 }
