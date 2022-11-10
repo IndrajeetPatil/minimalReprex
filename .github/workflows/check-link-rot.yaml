@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main, master]
 
-name: check-lint-rot
+# name: check-lint-rot
 
 jobs:
   check-lint-rot:
@@ -36,6 +36,6 @@ jobs:
           rotten_links <- urlchecker::url_check(progress = FALSE)
           if (length(rotten_links) > 0L) {
             print(rotten_links)
-            stop("Some links need to be fixed.", call. = FALSE)
+            stop("Some URLs are outdated and need to be updated.", call. = FALSE)
           }
         shell: Rscript {0}
