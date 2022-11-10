@@ -28,10 +28,10 @@ jobs:
           dependencies: "character()"
 
       - name: Run URL checker
-          run: |
-            rotten_links <- urlchecker::url_check()
-            if (length(rotten_links) > 0L) {
-              print(rotten_links)
-              stop("Some links need to be fixed.", call. = FALSE)
-            }
-          shell: Rscript {0}
+        run: |
+          rotten_links <- urlchecker::url_check()
+          if (length(rotten_links) > 0L) {
+            print(rotten_links)
+            stop("Some links need to be fixed.", call. = FALSE)
+          }
+        shell: Rscript {0}
