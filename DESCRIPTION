@@ -7,7 +7,7 @@ Authors@R: c(
   )
 Maintainer: Indrajeet Patil <patilindrajeet.science@gmail.com>
 Description: What the package does (one paragraph).
-URL: https://indrajeetpatil.github.io/minimalReprex,
+URL: https://indrajeetpatil.github.io/minimalReprex/,
     https://github.com/IndrajeetPatil/minimalReprex
 License: GPL-3
 Imports:

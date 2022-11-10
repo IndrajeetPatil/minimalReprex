@@ -15,4 +15,4 @@ removed)
 Hex sticker font is [Cairo](https://fonts.google.com/specimen/Cairo),
 and the image is adapted from icon made by
 [Freepik](https://www.freepik.com) from
-[flaticon.com](https://www.flaticon.com/premium-icon/sieve_4670917).
+[flaticon.com](https://www.flaticon.com/free-icon/sieve_4670917).
