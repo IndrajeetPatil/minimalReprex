@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main, master]
 
-# name: check-lint-rot
+name: check-lint-rot
 
 jobs:
   check-lint-rot:
@@ -28,8 +28,9 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           pak-version: devel
-          extra-packages: any::rcmdcheck, any::urlchecker
-          dependencies: "character()"
+          extra-packages: |
+            any::rcmdcheck
+            any::urlchecker
 
       - name: Run URL checker
         run: |
