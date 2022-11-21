@@ -18,7 +18,7 @@ image <- image_read("hextools/sieve.png")
 sticker(
   image,
   package = "minimalReprex",
-  p_color	= "#545452",
+  p_color       = "#545452",
   p_family = google_font_name,
   p_size = 30,
   p_x = 1,
@@ -30,8 +30,8 @@ sticker(
   h_color = "grey",
   filename = "hextools/minimalReprex.png",
   h_fill = "white",
-  #url = "https://indrajeetpatil.github.io/minimalReprex/",
-  #u_size = 6.5,
-  #u_color = "grey",
+  # url = "https://indrajeetpatil.github.io/minimalReprex/",
+  # u_size = 6.5,
+  # u_color = "grey",
   dpi = 600
 )
