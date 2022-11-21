@@ -9,3 +9,8 @@ enumOp()
 \description{
 Enumerated list of operations and their symbols
 }
+\examples{
+\donttest{
+1 + "a"
+}
+}
