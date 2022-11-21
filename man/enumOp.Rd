@@ -10,7 +10,7 @@ enumOp()
 Enumerated list of operations and their symbols
 }
 \examples{
-\donttest{
+\dontrun{
 1 + "a"
 }
 }
