@@ -6,8 +6,10 @@ default_language_version:
 
 repos:
   - repo: https://github.com/lorenzwalthert/precommit
-    rev: v0.3.2.9003
+    rev: v0.3.2.9004
     hooks:
       - id: style-files
+        additional_dependencies:
+          - r-lib/styler
         args:
           ['--ignore-start="^# styler: off$"', '--ignore-stop="^# styler: on$"']
