@@ -18,7 +18,7 @@ image <- image_read("hextools/sieve.png")
 sticker(
   image,
   package = "minimalReprex",
-  p_color       = "#545452",
+  p_color = "#545452",
   p_family = google_font_name,
   p_size = 30,
   p_x = 1,
