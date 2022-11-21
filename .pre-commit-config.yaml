@@ -14,4 +14,6 @@ repos:
         args:
           ['--ignore-start="^# styler: off$"', '--ignore-stop="^# styler: on$"']
       - id: roxygenize
+        additional_dependencies:
+          - roxygen2@7.2.2
       - id: use-tidy-description
