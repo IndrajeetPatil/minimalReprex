@@ -1,0 +1,13 @@
+# All available hooks: https://pre-commit.com/hooks.html
+# R specific hooks: https://github.com/lorenzwalthert/precommit
+default_stages: [commit]
+default_language_version:
+  python: python3
+
+repos:
+  - repo: https://github.com/lorenzwalthert/precommit
+    rev: v0.3.2.9003
+    hooks:
+      - id: style-files
+        args:
+          ['--ignore-start="^# styler: off$"', '--ignore-stop="^# styler: on$"']

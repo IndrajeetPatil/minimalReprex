@@ -7,4 +7,6 @@ enumOp <- function() {
     "multiply" = "*",
     "divide"   = "/"
   )
+
+  x=1
 }
