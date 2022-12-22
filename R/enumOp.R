@@ -8,3 +8,5 @@ enumOp <- function() {
     "divide"   = "/"
   )
 }
+
+x=1
