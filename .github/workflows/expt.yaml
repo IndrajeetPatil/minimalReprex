@@ -1,9 +1,12 @@
+name: expt
+
 on:
   pull_request:
-    branches:
-      - 'rc*'
+    branches: main
 
-name: expt
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
 
 jobs:
   expt:
