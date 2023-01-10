@@ -16,7 +16,7 @@ jobs:
 
     if: |
       ${{ github.event.workflow_run.event == 'pull_request' }} &&
-      startsWith(github.ref, 'rc')
+      startsWith(github.ref, 'refs/heads/rc')
 
     steps:
       - uses: actions/checkout@v3
