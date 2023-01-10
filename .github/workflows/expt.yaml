@@ -14,7 +14,9 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
-    if: github.event_name == 'pull_request' && github.head_ref.startsWith('rc')
+    if: |
+      ${{ github.event.workflow_run.event == 'pull_request' }} &&
+      startsWith(github.ref, 'rc')
 
     steps:
       - uses: actions/checkout@v3
