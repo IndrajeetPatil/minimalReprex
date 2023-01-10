@@ -2,7 +2,6 @@ name: expt
 
 on:
   pull_request:
-    types: [opened, synchronize]
     branches: main
 
 concurrency:
