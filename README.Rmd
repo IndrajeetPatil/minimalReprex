@@ -21,6 +21,10 @@ Old resolved issue (and therefore corresponding reprexes have been removed)
 - 1282
 - 1400
 
+```{r}
+warning("bla")
+```
+
 ## Acknowledgments
 
 Hex sticker font is [Cairo](https://fonts.google.com/specimen/Cairo), and the image is adapted from icon made by [Freepik](https://www.freepik.com) from
