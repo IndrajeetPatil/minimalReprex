@@ -36,6 +36,5 @@ jobs:
 
       - name: Build manual
         run: |
-          options(crayon.enabled = TRUE, warn = 2L)
           devtools::build_manual()
         shell: Rscript {0}
