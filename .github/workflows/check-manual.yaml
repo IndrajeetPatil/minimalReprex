@@ -46,5 +46,5 @@ jobs:
         with:
           upload-results: true
           error-on: '"warning"'
-          args: "--as-cran"
+          args: c("--as-cran")
           build_args: character()
