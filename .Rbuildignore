@@ -49,3 +49,4 @@ hextools
 publication/*
 references.bib
 tests\^spelling
+minimalReprex-manual.tex
