@@ -40,6 +40,12 @@ jobs:
           extra-packages: |
             any::devtools
             local::.
+          needs: check
+
+      - uses: r-lib/actions/check-r-package@v2
+        with:
+          upload-results: true
+          error-on: '"warning"'
 
       - name: Build manual
         run: |
