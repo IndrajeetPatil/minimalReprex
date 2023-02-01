@@ -38,7 +38,7 @@ jobs:
           dependencies: '"hard"'
           pak-version: devel
           extra-packages: |
-            any::devtools
+            any::rcmdcheck
             local::.
           needs: check
 
@@ -46,10 +46,5 @@ jobs:
         with:
           upload-results: true
           error-on: '"warning"'
-
-      - name: Build manual
-        run: |
-          Sys.setenv("NOT_CRAN" = "false")
-          options(crayon.enabled = TRUE, warn = 2L)
-          devtools::build_manual()
-        shell: Rscript {0}
+          args: "--as-cran"
+          build_args: character()
