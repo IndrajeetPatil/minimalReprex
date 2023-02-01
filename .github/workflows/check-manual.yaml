@@ -43,6 +43,7 @@ jobs:
 
       - name: Build manual
         run: |
+          Sys.setenv("NOT_CRAN" = "false")
           options(crayon.enabled = TRUE, warn = 2L)
           devtools::build_manual()
         shell: Rscript {0}
