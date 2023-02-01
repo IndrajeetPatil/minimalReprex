@@ -1,4 +1,4 @@
-name: check-manual
+name: check-pdf-manual
 
 # on:
 #   workflow_call:
@@ -8,15 +8,20 @@ on:
   pull_request:
     branches: [main, master]
 
-# concurrency:
-#   group: ${{ github.workflow }}-${{ github.head_ref }}
-#   cancel-in-progress: true
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
 
 jobs:
-  check-manual:
+  check-pdf-manual:
     runs-on: windows-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+      _R_CHECK_CRAN_INCOMING_: false
+      _R_CHECK_FORCE_SUGGESTS_: false
+      _R_CHECK_RD_XREFS_: false
+      _R_CHECK_PKG_SIZES_: false
 
     steps:
       - uses: actions/checkout@v3
