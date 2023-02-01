@@ -3,3 +3,5 @@
 export(enumOp)
 export(helloWorld)
 export(std)
+importFrom(ggplot2,ggplot)
+importFrom(stats,sd)
