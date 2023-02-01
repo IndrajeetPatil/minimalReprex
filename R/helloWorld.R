@@ -1,4 +1,6 @@
 #' Say Hello World
+#' @importFrom stats sd
+#' @importFrom ggplot2 ggplot
 #'
 #' @examples
 #' helloWorld()
