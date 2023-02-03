@@ -13,7 +13,7 @@ License: GPL-3
 Imports:
     httr,
     insight,
-    ggplot2
+    stats
 Suggests: 
     knitr,
     rmarkdown
