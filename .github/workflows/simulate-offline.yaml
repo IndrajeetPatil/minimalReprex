@@ -1,0 +1,41 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+name: simulate-offline
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  simulate-offline:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install Squid
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y squid
+
+      - name: Configure Squid
+        run: |
+          echo "http_access deny all" | sudo tee /etc/squid/conf.d/block-all.conf
+          sudo service squid restart
+
+      - name: Set HTTP Proxy Environment Variables
+        run: |
+          echo "::set-env name=http_proxy::http://localhost:3128"
+          echo "::set-env name=https_proxy::http://localhost:3128"
+
+      - name: Check internet
+        run: |
+          curl::has_internet()
+        shell: Rscript {0}
