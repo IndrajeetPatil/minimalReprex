@@ -47,6 +47,13 @@ jobs:
           extra-packages: |
             any::rcmdcheck
 
+      - name: Check internet
+        run: |
+          options(warn = 2L)
+          Sys.setenv("R_DEFAULT_INTERNET_TIMEOUT" = 0L)
+          curl::has_internet()
+        shell: Rscript {0}
+
       - uses: r-lib/actions/check-r-package@v2
         with:
           upload-snapshots: true
