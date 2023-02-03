@@ -10,10 +10,10 @@ on:
     # Trigger once a week at 00:00 on Sunday
     - cron: "0 0 * * SUN"
 
-name: R-CMD-check-strict
+name: R-CMD-check-offline
 
 jobs:
-  R-CMD-check-strict:
+  R-CMD-check-offline:
     runs-on: ${{ matrix.config.os }}
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
 
