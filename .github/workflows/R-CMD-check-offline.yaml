@@ -47,10 +47,13 @@ jobs:
           extra-packages: |
             any::rcmdcheck
 
+      - name: Block connectivity
+        run: |
+          sudo iptables -P OUTPUT DROP
+          sudo iptables -A OUTPUT -o lo -j ACCEPT
+
       - name: Check internet
         run: |
-          options(warn = 2L)
-          Sys.setenv("R_DEFAULT_INTERNET_TIMEOUT" = 0L)
           curl::has_internet()
         shell: Rscript {0}
 
@@ -59,5 +62,7 @@ jobs:
           upload-snapshots: true
           upload-results: true
           #error-on: '"note"'
-        env:
-          R_DEFAULT_INTERNET_TIMEOUT: 0
+
+      - name: Restore connectivity
+        run: |
+          sudo iptables -F
