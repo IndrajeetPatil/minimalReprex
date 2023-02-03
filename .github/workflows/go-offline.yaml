@@ -1,0 +1,36 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+name: Simulate Network Failure
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  simulate-network-failure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Turn off network
+        uses: actions/cache@v2
+        with:
+          args: network-offline
+
+      - name: Try to access network resource
+        run: |
+          curl https://www.google.com
+
+      - name: Turn on network
+        uses: actions/cache@v2
+        with:
+          args: network-online
+
+      - name: Check internet
+        run: |
+          curl::has_internet()
+        shell: Rscript {0}
