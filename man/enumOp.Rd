@@ -9,3 +9,6 @@ enumOp()
 \description{
 Enumerated list of operations and their symbols
 }
+\examples{
+model <- insight::download_model("brms_zi_2")
+}
