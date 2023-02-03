@@ -43,10 +43,11 @@ jobs:
       #     extra-packages: |
       #       any::rcmdcheck
 
-      - name: Block connectivity
+      - name: Simulate offline
         run: |
-          sudo iptables -P OUTPUT DROP
-          sudo iptables -A OUTPUT -o lo -j ACCEPT
+          echo "Simulating offline environment"
+          export http_proxy=null
+          export https_proxy=null
 
       - name: Check internet
         run: |
@@ -58,7 +59,3 @@ jobs:
       #     upload-snapshots: true
       #     upload-results: true
       #     #error-on: '"note"'
-
-      - name: Restore connectivity
-        run: |
-          sudo iptables -F
