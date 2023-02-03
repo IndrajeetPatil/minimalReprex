@@ -11,7 +11,7 @@ URL: https://indrajeetpatil.github.io/minimalReprex/,
     https://github.com/IndrajeetPatil/minimalReprex
 License: GPL-3
 Imports:
-    ggplot2
+    stats
 Suggests: 
     knitr,
     rmarkdown
