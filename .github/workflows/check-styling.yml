@@ -33,7 +33,7 @@ jobs:
           dependencies: '"hard"'
           extra-packages: |
             local::.
-            r-lib/styler
+            any::styler
           needs: |
             styler
 
