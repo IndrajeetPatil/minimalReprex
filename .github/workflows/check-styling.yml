@@ -70,11 +70,11 @@ jobs:
           styler::style_pkg(filetype = c(".R", ".Rmd", ".Rmarkdown", ".Rnw"))
         shell: Rscript {0}
 
-    - name: Check for changes
-      run: |
-        if git diff --quiet; then
-          echo "All files follow the style guide."
-        else
-          echo "Some files don't follow the style guide. Run `styler::style_pkg()` with latest `{styler}`."
-          exit 1
-        fi
+      - name: Check for changes
+        run: |
+          if git diff --quiet; then
+            echo "All files follow the style guide."
+          else
+            echo "Some files don't follow the style guide. Run `styler::style_pkg()` with latest `{styler}`."
+            exit 1
+          fi
