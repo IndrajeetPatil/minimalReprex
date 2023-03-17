@@ -1,0 +1,77 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+
+#name: Style
+
+on:
+  workflow_call:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
+
+jobs:
+  style:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          pak-version: devel
+          dependencies: '"hard"'
+          extra-packages: |
+            local::.
+            r-lib/styler
+          needs: |
+            styler
+
+      - name: Enable styler cache
+        run: |
+          styler::cache_activate()
+        shell: Rscript {0}
+
+      - name: Determine cache location
+        id: styler-location
+        run: |
+          cat(
+            "location=",
+            styler::cache_info(format = "tabular")$location,
+            "\n",
+            file = Sys.getenv("GITHUB_OUTPUT"),
+            append = TRUE,
+            sep = ""
+          )
+        shell: Rscript {0}
+
+      - name: Cache styler
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.styler-location.outputs.location }}
+          key: ${{ runner.os }}-styler-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-styler-
+            ${{ runner.os }}-
+
+      - name: Style package
+        run: |
+          options(crayon.enabled = TRUE)
+          styler::style_pkg(filetype = c(".R", ".Rmd", ".Rmarkdown", ".Rnw"))
+        shell: Rscript {0}
+
+    - name: Check for changes
+      run: |
+        if git diff --quiet; then
+          echo "All files follow the style guide."
+        else
+          echo "Some files don't follow the style guide. Run `styler::style_pkg()` with latest `{styler}`."
+          exit 1
+        fi
