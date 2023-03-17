@@ -77,8 +77,8 @@ jobs:
           GREEN='\033[0;32m'
           RED='\033[0;31m'
           if git diff --quiet; then
-            echo -e "${GREEN}All files follow the style guide."
+            echo -e "\n${GREEN}All files follow the style guide.\n"
           else
-            echo -e "${RED}Some files don't follow the style guide. Run styler::style_pkg() with latest {styler}."
+            echo -e "\n${RED}Some files don't follow the style guide. Run styler::style_pkg() with latest {styler}.\n"
             exit 1
           fi
