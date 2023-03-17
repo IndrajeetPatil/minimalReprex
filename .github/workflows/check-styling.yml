@@ -33,7 +33,8 @@ jobs:
           dependencies: '"hard"'
           extra-packages: |
             local::.
-            any::styler
+            any::vctrs
+            r-lib/styler
           needs: |
             styler
 
