@@ -73,9 +73,10 @@ jobs:
 
       - name: Check for changes
         run: |
-          if git diff --quiet; then
-            echo "All files follow the style guide."
-          else
-            echo "Some files don't follow the style guide. Run `styler::style_pkg()` with latest `{styler}`."
-            exit 1
-          fi
+          changes <- system("git diff --quiet", intern = TRUE)
+          if (changes == "FALSE") {
+            cli::cli_abort("Some files don't follow the style guide. Run `styler::style_pkg()` with latest {styler}.")
+          } else {
+            cli::cli_alert_success("All files follow the style guide.")
+          }
+        shell: Rscript {0}
