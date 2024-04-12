@@ -1,10 +1,10 @@
 pandoc: 2.19.1
-pkgdown: 2.0.7.9000
-pkgdown_sha: c354aa7e5ea1f9936692494c28c89e5bdd31fc68
+pkgdown: 2.0.8.9000
+pkgdown_sha: c725c922dc6512c094fb34cf5e745acaaf3820e8
 articles:
   minimalReprex: minimalReprex.html
   test: test.html
   test2: test2.html
   test3: test3.html
-last_built: 2023-02-03T19:35Z
+last_built: 2024-04-12T18:34Z
 
