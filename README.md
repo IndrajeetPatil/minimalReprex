@@ -1,7 +1,7 @@
 
 # Minimal reprexes for `{pkgdown}` issues
 
-<img src="man/figures/logo.png" align="right" width="240" />
+<img src="man/figures/logo.png" align="right" width="240" class="pkgdown-hide" />
 
 Old resolved issue (and therefore corresponding reprexes have been
 removed)
