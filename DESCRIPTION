@@ -1,19 +1,19 @@
 Package: minimalReprex
 Title: What the Package Does (One Line, Title Case)
 Version: 0.1.0
-Authors@R: c(
+Authors@R: 
     person("Indrajeet", "Patil", , "patilindrajeet.science@gmail.com", role = c("aut", "cre"))
-  )
 Maintainer: Indrajeet Patil <patilindrajeet.science@gmail.com>
 Description: What the package does (one paragraph).
+License: MIT + file LICENSE
 URL: https://indrajeetpatil.github.io/minimalReprex/
-License: GPL-3
 Imports:
     stats
 Suggests: 
     knitr,
     rmarkdown
+VignetteBuilder: 
+    knitr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-VignetteBuilder: knitr

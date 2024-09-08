@@ -34,7 +34,11 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: r-lib/pkgdown, local::.
+          pak-version: devel
+          upgrade: "TRUE"
+          extra-packages: |
+            r-lib/pkgdown
+            local::.
           needs: website
 
       - name: Build site
