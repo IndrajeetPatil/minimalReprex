@@ -1,45 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>/articles/minimalReprex.html</loc>
-  </url>
-  <url>
-    <loc>/articles/test.html</loc>
-  </url>
-  <url>
-    <loc>/articles/test2.html</loc>
-  </url>
-  <url>
-    <loc>/articles/test3.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/news/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/enumOp.html</loc>
-  </url>
-  <url>
-    <loc>/reference/helloWorld.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/std.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/404.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/articles/index.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/articles/test.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/articles/test2.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/articles/test3.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/authors.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/index.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/reference/helloWorld.html</loc></url>
+<url><loc>https://indrajeetpatil.github.io/minimalReprex/reference/index.html</loc></url>
 </urlset>
+
