@@ -2,13 +2,11 @@ Package: minimalReprex
 Title: What the Package Does (One Line, Title Case)
 Version: 0.1.0
 Authors@R: c(
-    person("Indrajeet", "Patil", , "patilindrajeet.science@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0003-1995-6531", Twitter = "@patilindrajeets"))
+    person("Indrajeet", "Patil", , "patilindrajeet.science@gmail.com", role = c("aut", "cre"))
   )
 Maintainer: Indrajeet Patil <patilindrajeet.science@gmail.com>
 Description: What the package does (one paragraph).
-URL: https://indrajeetpatil.github.io/minimalReprex/,
-    https://github.com/IndrajeetPatil/minimalReprex
+URL: https://indrajeetpatil.github.io/minimalReprex/
 License: GPL-3
 Imports:
     stats
