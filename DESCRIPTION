@@ -5,7 +5,6 @@ Authors@R:
     person("Indrajeet", "Patil", , "patilindrajeet.science@gmail.com", role = c("aut", "cre"))
 Maintainer: Indrajeet Patil <patilindrajeet.science@gmail.com>
 Description: What the package does (one paragraph).
-License: MIT + file LICENSE
 URL: https://indrajeetpatil.github.io/minimalReprex/
 Imports:
     stats
