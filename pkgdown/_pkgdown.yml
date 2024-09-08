@@ -5,12 +5,6 @@ template:
 
 reference:
 
-  - title: Main
-    desc: Something useful.
-    contents:
-      - std
-      - enumOp
-
   - title: Misc
     desc: Something boilerplate.
     contents:

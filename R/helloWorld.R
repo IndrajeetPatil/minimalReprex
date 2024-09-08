@@ -1,5 +1,4 @@
 #' Say Hello World
-#' @importFrom stats sd
 #'
 #' @examples
 #' helloWorld()
