@@ -1,11 +1,11 @@
-pandoc: '3.3'
-pkgdown: 2.1.0
+pandoc: '3.4'
+pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   test: test.html
   test2: test2.html
   test3: test3.html
-last_built: 2024-09-08T21:03Z
+last_built: 2024-09-18T03:40Z
 urls:
   reference: https://indrajeetpatil.github.io/minimalReprex/reference
   article: https://indrajeetpatil.github.io/minimalReprex/articles
